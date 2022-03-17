@@ -1,35 +1,6 @@
 # Creative Project 3 Project Specification
 ## Overview
-For your third Creative Project, you will explore different API's available as public web services and use the Fetch API to asynchronously request and process response data on your own website. Learning how to find and use public APIs is an extremely important skill in modern web development (and working with public datasets is one of the most fun parts of being a web developer!).
-
-There are a ton of APIs on the web today - you can find ones for dog breeds, government datasets, dictionary web services, weather data, etc. With that, even when the data they respond with may be very interesting, some APIs can be frustrating to work with due to poor documentation (what? documentation is actually useful?) or outdated response formats (XML, HTML, etc.). The APIs supported for CP3 all return data in JSON or plaintext format since we cover that more in this class, and these formats tend to be easier to work with.
-
-Specifically, you must choose from the following public APIs to request and process interesting data with and integrate into your own webpage:
-
-* [Bored API](https://www.boredapi.com/documentation)
-* [Random User Generator API](https://randomuser.me/)
-* [Faker API](https://fakerapi.it/en)
-* [Zippopotam API](http://www.zippopotam.us/)
-* [D&D API](http://www.dnd5eapi.co/docs/)
-* [PokeAPI](https://pokeapi.co/)
-* [Debt to the Penny API](https://fiscaldata.treasury.gov/api-documentation/)
-* [CheapShark API](https://apidocs.cheapshark.com/)
-* [Memes API](https://imgflip.com/api)
-* [FDA API](https://open.fda.gov/apis/)
-* [An API of Ice and Fire](https://anapioficeandfire.com/)
-* [Amiibo API](https://amiiboapi.com/)
-* [Excuser API](https://excuser.herokuapp.com/)
-* [Magic the Gathering API](https://docs.magicthegathering.io/)
-
-An important skill to have is knowing how to read and understand the provided documentation. All of these APIs are sufficiently documented but if you have any questions, please do not hesitate to reach out and ask (this is a good, real-life example of the importance of having effective documentation). Note that some of these APIs give examples within their documentation of how to make requests. For your CP, you are **required** to use `fetch` to make requests (regardless of what is included in the documentation). Additionally, **you must visibly cite the API you are using on your page** (e.g. in a page footer).
-
-### Note about API Keys
-* Some of these APIs may require API keys - an API key is helpful to ensure the service isn't overloaded with requests from clients, and most public APIs you work with as a web developer will require some sort of key or authentication. Each API has sufficient documentation to get access to your key once you register for a developer account (required for a key). That said, feel free to visit WPL/OH if you have any questions about getting/using API keys! Remember that you should **not** be opting in to any paid subscription plan.
-
-## Ideas for CP3
-As a Creative Project, we encourage you to explore the new material covered in class, as well as related (but optional) content we may link to along the way, as long as you follow the CSE 154 Code Quality Guidelines and adhere to Academic Integrity policies. In past quarters, some students have built upon their Creative Project each week. You may choose to do a new website for each CP, or build on the existing project from previous CP's.
-
-As long as you meet the requirements outlined below, you have freedom in what kind of website you create.
+This project was my third creative project for CSE 154: Web Programming at the University of Washington. Below are the project requirements.
 
 ## Development Strategy for Using Fetch with an API
 1. Design your page (either with a front-end or wire frame) to plan for your implementation, imagining if you had the data you wanted
@@ -84,15 +55,3 @@ Your code should maintain good code quality by following the
 * All file names and links in your project must be lowercased (e.g. `img/puppy.jpg` but not `img/puppy.JPG` or `img/Puppy.jpg`).
 * For full credit, all HTML, CSS, and JS files must be well-formed and pass validation. The HTML, CSS, and JS validator/linters will run automatically each time you commit and push your work. In order to be eligible for full points on this CP, your code must pass all validation/linting (indicated by no errors and a green checkmark). See the resources page for a detailed guide explaining how to view your feedback. Note that these validators/linters may take some time to run, so make sure you leave enough time to make any necessary changes before the deadline. A slow linter is not a valid reason for why an assignment was turned in late.
 * Your page should include school-appropriate content and copyrights and citations. If we find plagiarism in CPs or inappropriate content, **you will be ineligible for any points on the CP**. Ask the instructor if you're unsure if your work is appropriate/correctly cited.
-
-## Grading
-Grading for Creative Projects is lighter with the chance to explore and learn without the overhead of having to match strict external requirements. Our goal is to give you feedback, particularly on the internal requirements and documentation, so you can incorporate this feedback in your homework assignments which will be worth more towards your final grade.
-
-This CP will be out of 10 points and will likely (subject to adjustments) be distributed as:
-
-- External Correctness (~50%)
-- Internal Correctness (~40%)
-- Documentation (~10%)
-
-## Academic Integrity
-Creative Projects are unique in that students may look for outside resources for inspiration or assistance in accomplishing their goals. On occasion students may wish to use portions of sample code that has been obtained on our course website or others. In order to avoid academic misconduct for a Creative Project in CSE 154 you must include school appropriate content and follow the Academic Integrity/Collaboration Policies outlined in more detail on the syllabus. If we find inappropriate content or plagiarism in CPs **you will be ineligible for any points on the CP**. Ask the instructor if you're unsure if your work is cited appropriately. Any external sources like images should be cited where used in the source code or (ideally) visible in a page footer. Refer to this [copyright example](https://courses.cs.washington.edu/courses/cse154/22wi/resources/assets/code-examples/copyright-examples/copyrightexample2.html) page for how to cite images from different sources.
