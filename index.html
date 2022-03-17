@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+  ***
+  Bella Lee
+  1/12/2022
+  Section AH Shriya Kurpad
+
+  Home page for CP3. Generates a random character from An API of Ice and Fire,
+  then asks the user to guess the character's name from one of their aliases.
+  Shows a counter for the number of correct guesses and the total number of characters
+  generated.
+  ***
+-->
+<html lang='en'>
+  <head>
+    <title>A Guessing Game of Ice and Fire</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="index.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Oswald:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>A Guessing Game of Ice and Fire</h1>
+        <p>Correct guesses: <span id="score">0</span> of <span id="rounds">0</span></p>
+        <p>
+          One of this character's aliases is: <span id="alias"></span>
+          <span id="loading" class="hidden">(loading...)</span>
+        </p>
+        <label for="guess">Guess the character!</label>
+        <input type="text" id="guess" name="your guess">
+        <button id="submit-btn">submit</button> <button id="refresh-btn">refresh</button>
+        <p id="feedback"></p>
+      </section>
+    </main>
+    <footer>
+      <p>
+        &copy; 2022 Bella Lee. Game of Thrones API by
+        <a href="https://anapioficeandfire.com/">An API of ICE and Fire</a>.
+      </p>
+    </footer>
+  </body>
+</html>

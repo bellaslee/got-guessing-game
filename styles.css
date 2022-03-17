@@ -1,0 +1,48 @@
+/*
+  Bella Lee
+  1/19/2022
+  Section AH Shriya Kurpad
+
+  Styles for A Guessing Game of Ice and Fire. Body font is Oswald and
+  title font is Cinzel. Items are centered on the page.
+*/
+
+body, button, input {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Cinzel', serif;
+  font-size: 36px;
+}
+
+main, footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  font-size: 12px;
+}
+
+label {
+  display: block;
+}
+
+#alias p {
+  display: inline;
+}
+
+.hidden {
+  display: none;
+}
